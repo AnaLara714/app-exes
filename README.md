@@ -1,19 +1,51 @@
-# Welcome to your Expo app 👋
+# App .Exes
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+O app .Exes reúne as atividades acadêmicas que são executadas no campus de Sobral da UFC.
 
-## Get started
+## Sobre
 
-1. Install dependencies
+Projeto final da disciplina de desenvolvimento para dispositivos móveis, o app consiste em um projeto ficticio para registro e acompanhamento das atividades acadêmcias.
+
+O .Exes realiza a listagem das atividades em categorias de atividade de pesquisa, extensão, evento e edital. No cadastro da atividade, feita pelo usuário que entrar com login, é solicitado o título, nome do responsável, resumo da atividade, categoria, curso (opcional), data de cadastro e o link para mais informações. O usuário pode também editar e deletar atividade cadastrada.
+
+## Tecnologias
+
+- React Native com Expo
+
+## Funcionalidades
+
+- CRUD das atividades feitas por usuário cadastrados
+- Atividades listadas nas categorias correspondentes
+
+## Atualizações futuras
+
+- Válidar acesso no login (pois no momento é permitido acessar com qualquer credencial no campo de login)
+- Armazenar os dados em um banco de dados
+- Filtro por curso
+- Filtro por pesquisa de título e responsável
+
+## Como acessar
+
+1. No seu terminal faça o clone do projeto
+   ```bash
+   git clone https://github.com/AnaLara714/app-exes.git
+   ```
+2. Entre na pasta
+
+```bash
+ cd app-exes
+```
+
+3. Instale as dependencias
 
    ```bash
    npm install
    ```
 
-2. Start the app
+4. Inicialize o app
 
    ```bash
-    npx expo start
+    npm run dev
    ```
 
 In the output, you'll find options to open the app in a
@@ -25,26 +57,9 @@ In the output, you'll find options to open the app in a
 
 You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
 ## Learn more
 
 To learn more about developing your project with Expo, look at the following resources:
 
 - [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
 - [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
