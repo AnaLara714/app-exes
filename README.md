@@ -1,16 +1,17 @@
 # App .Exes
 
-O app .Exes reúne as atividades acadêmicas que são executadas no campus de Sobral da UFC.
+.EXES reúne as atividades acadêmicas que são executadas no campus de Sobral da UFC (.exe + sobral = .exes).
 
 ## Sobre
 
-Projeto final da disciplina de desenvolvimento para dispositivos móveis, o app consiste em um projeto ficticio para registro e acompanhamento das atividades acadêmcias.
+O app consiste em um projeto ficticio para registro e acompanhamento das atividades acadêmcias. O projeto foi solicitado como projeto final da disciplina de desenvolvimento para dispositivos móveis.
 
-O .Exes realiza a listagem das atividades em categorias de atividade de pesquisa, extensão, evento e edital. No cadastro da atividade, feita pelo usuário que entrar com login, é solicitado o título, nome do responsável, resumo da atividade, categoria, curso (opcional), data de cadastro e o link para mais informações. O usuário pode também editar e deletar atividade cadastrada.
+O .Exes realiza a listagem das atividades em categorias de atividade de pesquisa, extensão, evento e edital e também permite o cadastro da atividade feita pelo usuário que entrar com login, no cadastro é solicitado o título, nome do responsável, resumo da atividade, categoria, curso (opcional), data de cadastro e o link para mais informações. O usuário pode também editar e deletar atividade cadastrada.
 
 ## Tecnologias
 
 - React Native com Expo
+- React Navigation para nageção das telas
 
 ## Funcionalidades
 
